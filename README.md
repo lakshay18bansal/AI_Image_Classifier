@@ -9,6 +9,8 @@ This Model has been deployed using Streamlit too, It's link can be accessed Belo
 
 https://zca3scfhujrzwfax7wbmzg.streamlit.app/
 
+(NOTE THAT THE LINK WILL ACCEPT IMAGES OF PIXEL SIZE (32,32) ONLY !!)
+
 Dataset can be downloaded from Kaggle notebook:
 
 https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images?select=test 
