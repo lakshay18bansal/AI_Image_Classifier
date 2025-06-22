@@ -1,14 +1,55 @@
-# AI_Image_Classifier
-This Model tries to classifies an Image as AI image or a Real Image after being trained on about 1 Lakh images.
+# AI Image Classifier
 
-If you wish to download and Run the codes yourself, Download Both the given files , 
-Save the model and Run the model in the second Python Code. 
-( Note that Running that model on your own will take some time, a model-1.keras file has also been uploaded which can be used to check the code too)
+A binary image classifier to detect whether an image is **real** or **AI-generated** using a custom CNN built in Keras.
 
-This Model has been deployed using Streamlit too, It's link can be accessed Below:
+---
 
-https://zca3scfhujrzwfax7wbmzg.streamlit.app/
+## 📦 Dataset
 
-Dataset can be downloaded from Kaggle notebook:
+- **CIFAKE DATASET.zip** is included in this repo
+- Contains two classes: `REAL` and `FAKE`
+- All images are resized to 64×64 RGB
 
-https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images?select=test 
+---
+
+## 🧠 Model Overview
+
+- Built using TensorFlow/Keras
+- Architecture:
+  - Convolutional layers
+  - BatchNormalization
+  - Dropout
+  - Dense layers with SELU activation
+- Saved model: `model_1.keras`
+
+---
+
+## 📁 Files Included
+
+```
+AI_Image_Classifier/
+│
+├── AI_image_classifier.ipynb   # Training script
+├── Model_evaluate.ipynb        # Evaluation & predictions
+├── CIFAKE DATASET.zip          # Complete dataset (train/test)
+├── model_1.keras               # Trained model
+├── README.md                   # Project info (this file)
+```
+
+---
+
+## ⚙️ How to Use
+
+1. Unzip the dataset:
+   ```bash
+   unzip CIFAKE\ DATASET.zip
+   ```
+
+
+
+2. Open and run the notebooks: 
+   - `AI_image_classifier.ipynb` to train
+   - `Model_evaluate.ipynb` to test the model
+
+---
+
