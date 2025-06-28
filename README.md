@@ -4,7 +4,7 @@ A binary image classifier to detect whether an image is **real** or **AI-generat
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - **CIFAKE DATASET.zip** is included in this repo
 - Contains two classes: `REAL` and `FAKE`
@@ -12,7 +12,7 @@ A binary image classifier to detect whether an image is **real** or **AI-generat
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 - Built using TensorFlow/Keras
 - Architecture:
@@ -24,7 +24,7 @@ A binary image classifier to detect whether an image is **real** or **AI-generat
 
 ---
 
-## 📁 Files Included
+##  Files Included
 
 ```
 AI_Image_Classifier/
@@ -38,7 +38,7 @@ AI_Image_Classifier/
 
 ---
 
-## ⚙️ How to Use
+##  How to Use
 
 1. Unzip the dataset:
    ```bash
